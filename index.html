@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+    <title>mobile app agency</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="">
+                <li class="me-4 mt-4"><a href="#">Home</a></li>
+                <li class="me-4 mt-4"><a href="#aboutus">About us</a></li>
+                <li class="me-4 mt-4"><a href="#products">Products</a></li>
+                <li class="me-4 mt-4"><a href="#Services">Nos Services</a></li>
+                <li class="me-4 mt-4"><a href="#contact">contact us</a></li>
+            </ul>
+            <i class="fas fa-bars" id="icon"></i>
+        </nav>
+        <h1>mobile app agency</h1>
+        <p>the applications on android and ios</p>
+    </header>
+    <main>
+        <section class="section1" id="aboutus">
+            <div>
+                <img src="images/Sans titre.jpg" alt="setup">
+            </div>
+            <div>
+                <h1>Profil de l'Agence</h1>
+                <p>Fondée en 2019, notre agence est une agence de création des applications mobiles au Maroc,
+                    spécialisée dans la
+                    conception et le développement mobile sur Android et IOS en plus des plateformes Web.Notre équipe
+                    est composée
+                    de développeurs web, développeurs mobiles, testeurs, designers et chefs de projet, tous
+                    experts et fiers par les applications mobiles et les plateformes web qu’ils ont réalisés.</p>
+                <button>Pour en savoir plus></button>
+            </div>
+        </section>
+        <section class="section2" id="products">
+            <div class="space">
+                <div>
+                    <h1 class="padding ps-4">Notre Liste de Clients</h1>
+                    <p class="ps-4">Des les premiers jours, nous avons offert un service fiable a notre clientele.Nous
+                        avons eu l'honneur d'etre choisi par les societes suivantes :</p>
+                </div>
+                <div class="end">
+                    <img src="images/check-min.png" alt="logo inwi">
+                    <img src="images/livry-min.png" alt="logo livry">
+                    <img src="images/logoznb-uai-258x258.jpg" alt="logo zenobee">
+                </div>
+            </div>
+            <br>
+            <div class="start">
+                <div>
+                    <h4>inwi Checkin</h4>
+                </div>
+                <div>
+                    <h4>Livry</h4>
+                </div>
+                <div>
+                    <h4>zenobee</h4>
+                </div>
+            </div>
+
+        </section>
+        <section class="section3" id="Services">
+            <div class="space1">
+                <h1>Nos Services</h1>
+                <img src="images/screen_2x.jpg" alt="">
+            </div>
+            <div class="pt-4 ps-4 ms-4">
+                <hr>
+                <div class="d-flex flex-row">
+                    <div class="pad">
+                        <h1>01</h1>
+                    </div>
+                    <div>
+                        <h4>Applications Mobiles</h4>
+                        <p>Nous aimons créer des applications mobiles multi-plateformes, natives, et performantes, sur
+                            Android et IOS </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex flex-row">
+                    <div class="pad">
+                        <h1>02</h1>
+                    </div>
+                    <div>
+                        <h4>E-commerce</h4>
+                        <p>Mettez en avant vos produits, services, et offres promotionnelles !Créez un site web
+                            e-commerce ou/et une application M-commerce, vos clients y trouveront toutes vos informations !</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex flex-row">
+                    <div class="pad">
+                        <h1>03</h1>
+                    </div>
+                    <div>
+                        <h4>Sites Web</h4>
+                        <p>Nous vous accompagnons dans le développement et la création de votre site Internet moderne et
+                            responsive</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer id="contact">
+        <h1>Agissons ensemble</h1>
+        <div class="d-flex flex-row justify-content-around">
+            <img src="images/screen_3x.jpg" alt="contact">
+            <div class="titre">
+                <div>
+                    <h4>Adresse postale</h4>
+                    <p>Sidi Moumen GR 02 RUE 03 N 80, CASABLANCA</p>
+                </div>
+                <div>
+                    <h4>Numero de telephone</h4>
+                    <p>06-30-01-25-46</p>
+                </div>
+                <div>
+                    <h4>Adresse e-mail</h4>
+                    <p>assia.aitlamalem@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
